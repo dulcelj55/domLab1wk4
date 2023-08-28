@@ -2,11 +2,17 @@ let rainbow = document.getElementById("rainbow")
 let message1 = document.getElementById("message1")
 let message2 = document.getElementById("message2")
 let message = document.getElementsByTagName("p")
+let input= document.get
 
-rainbow.addEventListener("click", function(){
+rainbow.addEventListener("click", function(e){
+    e.preventDefault()
    message1.textContent=  "They love going to sporting events, concerts and going on Road Trips!"
-   
+ 
 } );
+rainbow.addEventListener("click", function addInput(){
+    rainbow.textContent = "What Should Their Next Adventure Be?!"
+
+});
 
 
 

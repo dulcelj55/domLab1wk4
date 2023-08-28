@@ -21,7 +21,8 @@ p{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    background-color: aliceblue;
+    background-color: lightgreen;
+    color: hotpink;
 }
 
 button{
@@ -40,7 +41,7 @@ button{
       }
 
 #message2{
-    display: hidden;
+    display: block;
       margin-left: auto;
       margin-right: auto;
       width: 50%;
